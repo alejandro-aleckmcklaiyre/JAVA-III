@@ -17,6 +17,7 @@ public class TriangleAreaCalculator {
 		
 		System.out.println("The area of the triangle is: " + area);
 
+		input.close();
 	}
 
 }
