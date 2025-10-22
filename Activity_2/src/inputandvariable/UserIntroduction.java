@@ -9,7 +9,7 @@ public class UserIntroduction {
 		
 		//input name
 		System.out.print("Enter your name: ");
-		String name = input.nextLine();
+		String name = input.nextLine().trim();
 		
 		//input age
 		System.out.print("How old are you: ");
@@ -19,11 +19,10 @@ public class UserIntroduction {
 		
 		//input hobby
 		System.out.print("What is your favorite hobby: ");
-		String hobby = input.nextLine();
+		String hobby = input.nextLine().trim();
 		
 		input.close();
-		System.out.println("---------------------------------------");
-		
+	
 		System.out.println("Nice to meet you, " + name +"!");
 		System.out.println("You are " + age + " years old and love " + hobby);
 		
