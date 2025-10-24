@@ -6,22 +6,19 @@ public class RectangleAreaCalculator {
 
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
-	
-		System.out.println(" == Rectangle Area Calculator == ");
-		
-		//input length
+
+		System.out.println("== Rectangle Area Calculator ==");
+
 		System.out.print("Enter the length: ");
-		double length = input.nextDouble();
-		
-		//input width
+		float length = input.nextFloat();
+
 		System.out.print("Enter the width: ");
-		double width = input.nextDouble();
-		
-		//calculation for area
-		double area = length * width;
-		
+		float width = input.nextFloat();
+
+		float area = length * width;
+
 		System.out.println("The area of the rectangle is: " + area);
-		
+
 		input.close();
 	}
 
